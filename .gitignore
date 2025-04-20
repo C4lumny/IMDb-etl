@@ -1,5 +1,8 @@
-data/*
+data/raw/*
+data/staging/*
+data/master/*
 venv/*
+.venv/*
 __pycache__/*
 *.pyc
 *.pyo
