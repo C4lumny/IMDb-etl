@@ -114,7 +114,7 @@ def transform_fact_obra(path_basics, path_ratings, path_akas, path_region_stagin
     # Columnas finales con la información de director
     df = df[['obra_key', 'tconst', 'primaryTitle', 'anio_lanzamiento', 'duracion_min', 'is_adult',
              'averageRating', 'numVotes', 'tipo_obra', 'genero', 'region_key',
-             'region', 'language', 'director_principal', 'nombre_director']]
+             'region', 'region_name', 'language', 'director_principal', 'nombre_director']]
     
     # Guardar resultado
     df.to_csv(master_output, index=False)
